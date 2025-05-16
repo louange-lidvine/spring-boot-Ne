@@ -22,4 +22,6 @@ public class AdminController {
     public ResponseEntity<List<UserResponseDto>> getAllUsers() {
         return ResponseEntity.ok(userService.getAllUsers());
     }
+
+
 }
